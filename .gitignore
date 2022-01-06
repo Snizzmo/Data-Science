@@ -2,3 +2,5 @@
 DataScienceGuidedCapstone/
 Guided Capstone/
 Capstone_Two/data/training_data_cleaned.csv
+Capstone_Two/data/training_data_feature_engineered.csv
+featuretools/
