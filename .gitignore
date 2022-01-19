@@ -4,3 +4,5 @@ Guided Capstone/
 Capstone_Two/data/training_data_cleaned.csv
 Capstone_Two/data/training_data_feature_engineered.csv
 featuretools/
+Capstone_Two/data/clean/clean_sales_train.csv
+Capstone_Two/data/feature_engineered/df_feature_engineered.csv
