@@ -1,0 +1,34 @@
+Features: 
+Days per month - how many days the month had
+Group - larger categories, i.e. merging video games for all systems into a Games category
+First month sold - identifying what month the item first sold, if any
+Number of months since last sale - how long it has been since the item sold 
+Lag means: 
+Item average sales, lagging 1, 2, 3, and 12 months
+Shop average sales, lagging 1, 2, 3, and 12 months
+Item category sales, lagging 1, 2, 3, and 12 months
+Item average sales per shop, lagging 1, 2, 3, and 12 months
+Item category sales per shop, lagging 1, 2, 3, and 12 months
+
+
+Parameters: 
+All values default. 
+
+
+Hyperparameters:
+I used CART and XGB models after analyzing 5 total models by their RMSE score. 
+CART: max_depth: 6, max_features: 0.8, min_samples_leaf: 0.04 
+XGB: max_depth: 4, max_features: log2, min_samples_leaf: 0.01, n_estimators: 200
+
+
+Performance metrics: 
+I used time-series cross-validation and the best RMSE values during cross-validation training and tuning were as follows:
+CART: 0.890
+XGB: 0.306
+
+After uploading to the Kaggle competition, the RMSE scores were as follows: 
+CART: 1.25011
+XGB: 1.23691
+Averaged: 1.24313
+
+The best score is XGB. 
