@@ -3,6 +3,8 @@ Capstone3
 
 This is my 3rd capstone project for springboard, where I take book information and reviews and make a recommendation system.
 
+Initial data taken from https://www.kaggle.com/hoshi7/goodreads-analysis-and-recommending-books
+
 Project Organization
 ------------
 
