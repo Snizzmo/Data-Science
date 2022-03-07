@@ -8,3 +8,4 @@ Capstone_Two/data/clean/clean_sales_train.csv
 Capstone_Two/data/feature_engineered/df_feature_engineered.csv
 Capstone2/data/clean/clean_sales_train.csv
 Capstone2/data/feature_engineered/df_feature_engineered.csv
+Capstone3/models/KNNBaseline_150.sav
