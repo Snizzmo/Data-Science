@@ -1,4 +1,4 @@
-Capstone4
+Language Classification
 ==============================
 
 This is a NLP project for text langauge classification. 
